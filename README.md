@@ -2,7 +2,7 @@
 
 ## 1. a/b (Entity Relationship Diagram)
 
-![image](https://user-images.githubusercontent.com/80073478/115454026-52e59c80-a1ee-11eb-8142-ee67cbb42687.png)
+![image](https://user-images.githubusercontent.com/80073478/115462957-41ee5880-a1f9-11eb-88b1-46e93fd60252.png)
 
 ## 1. c (Use Case Diagram)
 
