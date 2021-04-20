@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Order App</title>
+ <meta charset="UTF-8">
+ <link rel = "stylesheet" href="index.css">
+</head>
+<body bgcolor="#DFCFBE">
+    <h1>Food Order App</h1>
+    <form action="confirmation.html" name="order">
+    Customer: <input type="text" size=20/>
+    Phone Number: <input type="text" size=20/>
+    <br><br>
+    <table align ="center">
+      <tr>
+        <th>Image</th>
+        <th>Food Name</th>
+        <th>Quanitiy</th>
+        <th>Unit Price($)</th>
+      </tr>
+      <tr>
+        <td> <img src="burger.jpg" width="200" height="200"</td>
+        <td> <input type="radio" id="burger" name="food name" value="burger">
+ Burger</td>
+        <td><input type="text" size=5/></td>
+        <td><input type="text" size = 5  value="3.25" readonly/></td>
+      </tr>
+      <tr>
+        <td> <img src="hotdog.jpg" width="200" height="200"</td>
+        <td> <input type="radio" id="hot dog" name="food name" value="hot dog">
+        Hotdog</td>
+        <td><input type="text" size=5/></td>
+        <td><input type="text" size = 5  value="3.25" readonly/></td>
+
+      </tr>
+    </table>
+
+
+
+
+
+
+
+
+  </form>
+
+
+
+
+
+
+
+    <form action="confirmation.html">
+      <input type ="submit" value = "Order"/>
+    </form>
+</body>
+
+</html>

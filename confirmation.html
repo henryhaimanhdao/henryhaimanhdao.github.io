@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="#DFCFBE">
+  <h1>
+    Your ORDER has been CONFIRMED with a random ORDER ID of:
+  </h1>
+<div id = 'string_inner_container'>
+</body>
+<script>
+document.getElementById('string_inner_container').innerHTML = generateString(45)
+
+
+
+function generateString(length) {
+    let result = ' ';
+    const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    const charactersLength = characters.length;
+    for ( let i = 0; i < length; i++ ) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+
+    return result;
+}
+
+
+
+
+</script>
+</html>
