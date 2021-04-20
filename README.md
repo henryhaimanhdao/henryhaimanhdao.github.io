@@ -6,7 +6,7 @@
 
 ## 1. c (Use Case Diagram)
 
-![image](https://user-images.githubusercontent.com/80073478/115457043-ea002380-a1f1-11eb-8ab7-54835faf08b3.png)
+![image](https://user-images.githubusercontent.com/80073478/115457146-11ef8700-a1f2-11eb-80dc-bed33580e0e7.png)
 
 ## 1. d (Paragraph on describing background process of querying products and sending orders to the Fast food restaurant)
 * In the beginning when the clients pull up the order menu, they will input what order they want. The system will check the order data, validate the data, then display that data for the client. After, the client will validate/confirm the order data and finally the system will store the client’s order data into its database. 
